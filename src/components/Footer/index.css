@@ -1,0 +1,12 @@
+.h-divider{
+    border-top: 2px solid #bbb;
+}
+
+td > a{
+    color: #403b37;
+    text-decoration: none;
+}
+
+td > a:hover{
+    color: #aa7530;
+}
