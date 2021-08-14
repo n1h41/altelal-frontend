@@ -1,9 +1,10 @@
-import React from 'react'
+import {React, useState} from 'react'
 import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap'
 import Logo from '../../assets/logo.png'
 import './index.css'
 
 function Header() {
+    const [cartExpand, setCartExpand] = useState(false)
     return (
         <>
             <Container className="top-bar py-3">
@@ -26,14 +27,15 @@ function Header() {
                     </Col>
                 </Row>
             </Container>
+            <hr className="h-d" />
             <Container>
-                <Navbar className="p-0 w-100 justify-content-between">
+                <Navbar className="p-0 w-100 justify-content-between align-items-center">
                     <div className="logo-container">
                         <Navbar.Brand className="logo">
                             <img src={Logo} alt="logo" className="logo" />
                         </Navbar.Brand>
                     </div>
-                    <ul className="extras-menu-container w-25 d-flex justify-content-around">
+                    <ul className="extras-menu-container d-flex justify-content-around m-0">
                         <li className="counter-container">
                             <a href="#home">
                                 <span class="material-icons">
@@ -42,14 +44,21 @@ function Header() {
                             </a>
                             <span className="item-counter text-center">0</span>
                         </li>
+                        <div className="v-d"></div>
                         <li className="counter-container">
-                            <a href="#home">
+                            <a href="#home" onMouseOver={ () => setCartExpand(true)} onMouseLeave={ () => setCartExpand(false)}>
                                 <span class="material-icons-outlined">
                                     shopping_cart
                                 </span>
                             </a>
                             <span className="item-counter text-center">0</span>
+                            <div className={`d-flex justify-content-start p-2 ${cartExpand ? 'cart-preview' : 'cart-preview d-none'}`}>
+                                <p>
+                                    No products in cart.
+                                </p>
+                            </div>
                         </li>
+                        <div className="v-d"></div>
                         <li>
                             <a href="#home">
                                 <span class="material-icons-outlined">
@@ -60,6 +69,7 @@ function Header() {
                     </ul>
                 </Navbar>
             </Container>
+            <hr className="h-d" />
         </>
     )
 }

@@ -1,0 +1,22 @@
+.hero-container{
+    width: 100%;
+    height: 100vh !important;
+}
+
+.h-d{
+    border-top: 2px solid #e1e1e1;
+    margin: 0px;
+}
+
+.product-title{
+    font-weight: 700;
+}
+
+.product-price{
+    color: #ab7630;
+    font-size: 22.4px
+}
+
+.product-policy{
+    font-size: 15px;
+}
