@@ -38,7 +38,7 @@ function Header() {
                     <ul className="extras-menu-container d-flex justify-content-around m-0">
                         <li className="counter-container">
                             <a href="#home">
-                                <span class="material-icons">
+                                <span className="material-icons">
                                     favorite_border
                                 </span>
                             </a>
@@ -47,7 +47,7 @@ function Header() {
                         <div className="v-d"></div>
                         <li className="counter-container">
                             <a href="#home" onMouseOver={ () => setCartExpand(true)} onMouseLeave={ () => setCartExpand(false)}>
-                                <span class="material-icons-outlined">
+                                <span className="material-icons-outlined">
                                     shopping_cart
                                 </span>
                             </a>
@@ -61,7 +61,7 @@ function Header() {
                         <div className="v-d"></div>
                         <li>
                             <a href="#home">
-                                <span class="material-icons-outlined">
+                                <span className="material-icons-outlined">
                                     person
                                 </span>
                             </a>

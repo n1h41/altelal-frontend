@@ -52,8 +52,8 @@ function HeroCarousel() {
         <>
             <div className="navigation-wrapper">
                 <div ref={sliderRef} className="keen-slider">
-                    {bannerData.map((item) => <div className="keen-slider__slide d-flex justify-content-center">
-                        <img src={`${item}`} alt="Banner" srcset="" className="w-100" />
+                    {bannerData.map((item) => <div key={item} className="keen-slider__slide d-flex justify-content-center">
+                        <img key={item} src={`${item}`} alt="Banner" className="w-100" />
                     </div>)}
                 </div>
                 {slider && (
