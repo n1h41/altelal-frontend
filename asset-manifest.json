@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/altelal-frontend/static/css/main.5913d99d.chunk.css",
-    "main.js": "/altelal-frontend/static/js/main.82b7961b.chunk.js",
-    "main.js.map": "/altelal-frontend/static/js/main.82b7961b.chunk.js.map",
+    "main.css": "/altelal-frontend/static/css/main.e65af274.chunk.css",
+    "main.js": "/altelal-frontend/static/js/main.aa8432cd.chunk.js",
+    "main.js.map": "/altelal-frontend/static/js/main.aa8432cd.chunk.js.map",
     "runtime-main.js": "/altelal-frontend/static/js/runtime-main.2d2843e1.js",
     "runtime-main.js.map": "/altelal-frontend/static/js/runtime-main.2d2843e1.js.map",
     "static/css/2.5ef94baa.chunk.css": "/altelal-frontend/static/css/2.5ef94baa.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.f2b6858a.chunk.js.map": "/altelal-frontend/static/js/2.f2b6858a.chunk.js.map",
     "index.html": "/altelal-frontend/index.html",
     "static/css/2.5ef94baa.chunk.css.map": "/altelal-frontend/static/css/2.5ef94baa.chunk.css.map",
-    "static/css/main.5913d99d.chunk.css.map": "/altelal-frontend/static/css/main.5913d99d.chunk.css.map",
+    "static/css/main.e65af274.chunk.css.map": "/altelal-frontend/static/css/main.e65af274.chunk.css.map",
     "static/js/2.f2b6858a.chunk.js.LICENSE.txt": "/altelal-frontend/static/js/2.f2b6858a.chunk.js.LICENSE.txt",
     "static/media/laptop.9a57d78c.png": "/altelal-frontend/static/media/laptop.9a57d78c.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.2d2843e1.js",
     "static/css/2.5ef94baa.chunk.css",
     "static/js/2.f2b6858a.chunk.js",
-    "static/css/main.5913d99d.chunk.css",
-    "static/js/main.82b7961b.chunk.js"
+    "static/css/main.e65af274.chunk.css",
+    "static/js/main.aa8432cd.chunk.js"
   ]
 }
